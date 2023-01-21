@@ -1,0 +1,383 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.app {
+    flex-direction: column;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    height: 20px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+}
+
+.top-header {
+    height: 50px;
+    display: flex;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    max-width: 80rem;
+    flex-grow: 1;
+}
+
+.top-header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    color: rgb(112, 111, 111);
+    font-weight: 600;
+}
+
+
+.left {
+    display: flex;
+    gap: 20px;
+}
+
+.left a {
+    font-weight: bold;
+    color: red;
+    padding-left: 20px;
+}
+
+.menu {
+    border-left: 1px solid red;
+}
+
+.bottom-header {
+    background: rgb(230, 2, 2);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
+.bottom-header ul {
+    flex-shrink: 0;
+    display: flex;
+    list-style: none;
+    gap: 58px;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.news {
+    font-size: 2em;
+    font-weight: lighter;
+    padding-left: 35px;
+}
+
+.more {
+    border: 1px solid white;
+    padding: 5px 10px;
+}
+
+.white-wrapper {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.red-wrapper {
+    width: 100%;
+    background: rgb(230, 2, 2);
+    display: flex;
+    justify-content: center;
+}
+
+.red-wrapper a {
+    text-decoration: none;
+    color: white;
+}
+
+.red-wrapper ul a:hover {
+    text-decoration-line: underline;
+}
+
+.container {
+    max-width: 80rem;
+    background: white;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 35px;
+}
+
+.content {
+    flex-grow: 1;
+    min-width: 720px;
+    max-width: 720px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 20px;
+    font-weight: 800;
+}
+
+.section .softer {
+    color: grey;
+    padding-right: 5px;
+}
+
+.section a {
+    padding-right: 5px;
+}
+
+.headline {
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.media ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.media ul li {
+    flex-shrink: 0;
+    border: 1px solid lightgrey;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.byline {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: 500;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.image hr {
+    margin-bottom: 0;
+}
+
+.caption {
+    font-weight: 400;
+    padding-top: 10px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+.writing {
+    line-height: 1.7;
+}
+
+.writing p {
+    font-weight: 400;
+    color: rgb(59, 58, 58);
+    padding-bottom: 10px;
+}
+
+.writing img {
+    margin-top: 10px;
+}
+
+.content-links a {
+    text-decoration: none;
+    color: #0550c8;
+    transition: background-color .25s linear;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.content-links a:hover {
+    background-color: #d8d8d8;
+}
+
+.content-links span {
+    margin-right: 10px;
+    color: rgb(230, 34, 34);
+}
+
+
+.footer {
+    width: 100%;
+    border-top: 1px solid rgb(192, 192, 192);
+    padding: 15px 0px;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .top {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer .title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.footer .items {
+    flex-shrink: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #0550c8;
+}
+
+.footer a:hover {
+    text-decoration-line: underline;
+    color: #0550c8;
+}
+
+.footer ul {
+    list-style: none;
+    line-height: 2rem;
+    padding: 0px;
+    margin: 0;
+    font-size: .85rem;
+}
+
+.footer p {
+    margin: 1rem 0;
+    font-size: .85rem;
+}
+
+.basicFooter {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.basicFooter .bottom {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.basicFooter ul {
+    width: 100%;
+    max-width: 80rem;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.basicFooter ul img {
+    height: 2rem;
+}
+
+.basicFooter a {
+    text-decoration: none;
+    color: white;
+}
+
+.basicFooter a:hover {
+    text-decoration-line: underline;
+    color: white;
+}
+
+.feed {
+    width: 100%;
+    min-width: 300px;
+    max-width: 300px;
+    align-self: flex-start;
+    margin-top: 50px;
+    flex-direction: column;
+    display: flex;
+    position: sticky;
+    top: 50px;
+}
+
+.f-header {
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.625rem;
+    margin-bottom: 10px;
+}
+
+.story {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+}
+
+.reading {
+    color: #545454;
+    font-size: 12.2px;
+    margin-left: 9px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+ol {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.updated {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: red;
+}
+
+.trending hr {
+    margin-bottom: 10px;
+}
+
+.story a {
+    text-decoration: none;
+    color: black;
+}
+
+.story a:hover, .updated a:hover {
+    text-decoration-line: underline;
+}
+
+.updated a {
+    text-decoration: none;
+    color: red;
+}
